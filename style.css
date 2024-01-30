@@ -1,0 +1,75 @@
+button {
+    width: 100px;
+    height: 100px;
+    background-color: #eb6262(243, 52%, 28%);
+    border-radius: 50px;
+    color: rgb(7, 7, 7);
+    border: none;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+/* hover pseudo class */
+button:hover {
+    background-color: hsl(51, 100%, 84%);
+}
+
+/* active hover pseudo class */
+button:active {
+    background-color: hsl(53, 88%, 83%);
+}
+
+
+#keys {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* repeat is a function */
+    /* fr means each column should take equal amount of space*/
+    gap: 10px;
+    padding: 25px;
+
+}
+
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsla(0, 72%, 79%, 0.952);
+    border-radius: 25px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsla(0, 55%, 71%, 0.909);
+    /* below for: color of what we type */
+    color: rgb(0, 0, 0);
+
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: hsla(0, 38%, 73%, 0.526);
+}
+
+.operator-btn {
+    background-color: #f1dc54;
+}
+
+.operator-btn:hover {
+    background-color: #eedc64(35, 95%, 65%);
+}
+
+.operator-btn:active {
+    background-color: #f9e771(35, 100%, 75%);
+}
