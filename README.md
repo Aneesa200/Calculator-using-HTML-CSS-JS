@@ -5,7 +5,7 @@ This project is a simple calculator built with HTML, CSS, and JavaScript. It's d
 
 Live Demo: [Simple Calculator](https://aneesa200.github.io/Calculator-using-HTML-CSS-JS)
 
-![Calculator Preview](screenshot.jpeg) <!-- Replace <screenshot-link-here> with the actual link to your project screenshot -->
+![Calculator Preview](screenshot.jpg) <!-- Replace <screenshot-link-here> with the actual link to your project screenshot -->
 
 ## Features
 - **Basic Operations:** Perform addition, subtraction, multiplication, and division.
