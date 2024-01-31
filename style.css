@@ -1,75 +1,86 @@
 button {
-    width: 100px;
-    height: 100px;
-    background-color: #eb6262(243, 52%, 28%);
-    border-radius: 50px;
-    color: rgb(7, 7, 7);
-    border: none;
-    font-size: 3rem;
-    font-weight: bold;
-    cursor: pointer;
-    /* text-align: center; */
+  width: 80px;
+  height: 80px;
+  background-color: hwb(0 88% 5%);
+  border-radius: 50px;
+  color: rgb(28, 27, 27);
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 /* hover pseudo class */
 button:hover {
-    background-color: hsl(51, 100%, 84%);
+  background-color: hsl(51, 100%, 84%);
 }
 
 /* active hover pseudo class */
 button:active {
-    background-color: hsl(53, 88%, 83%);
+  background-color: hsl(53, 88%, 83%);
 }
 
-
 #keys {
-
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* repeat is a function */
-    /* fr means each column should take equal amount of space*/
-    gap: 10px;
-    padding: 25px;
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* repeat is a function */
+  /* fr means each column should take equal amount of space*/
+  gap: 10px;
+  padding: 15px;
 }
 
 #calculator {
-    font-family: Arial, sans-serif;
-    background-color: hsla(0, 72%, 79%, 0.952);
-    border-radius: 25px;
-    max-width: 500px;
-    overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: hsla(0, 72%, 79%, 0.952);
+  border-radius: 25px;
+  max-width: 380px;
+  overflow: hidden;
+  margin: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 #display {
-    width: 100%;
-    padding: 20px;
-    font-size: 5rem;
-    text-align: left;
-    border: none;
-    background-color: hsla(0, 55%, 71%, 0.909);
-    /* below for: color of what we type */
-    color: rgb(0, 0, 0);
-
+  width: 100%;
+  padding: 20px;
+  font-size: 3rem;
+  text-align: left;
+  border: none;
+  background-color: hsla(0, 65%, 74%, 0.76);
+  /* below for: color of what we type */
+  color: rgb(28, 27, 27);
 }
 
 body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 95vh;
-    background-color: hsla(0, 38%, 73%, 0.526);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  background-color: hsla(0, 100%, 90%, 0.526);
 }
 
 .operator-btn {
-    background-color: #f1dc54;
+  background-color: #f3e171;
 }
 
 .operator-btn:hover {
-    background-color: #eedc64(35, 95%, 65%);
+  background-color: #eedc64(35, 95%, 65%);
 }
 
 .operator-btn:active {
-    background-color: #f9e771(35, 100%, 75%);
+  background-color: #f9e771(35, 100%, 75%);
+}
+
+#author {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 0%);
+  border: #eb6262 solid 1px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  width: 100%;
+  text-align: center;
 }
